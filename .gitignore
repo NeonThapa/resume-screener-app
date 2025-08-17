@@ -1,0 +1,18 @@
+# .gitignore (This is the only one you need)
+
+# Python / Backend ignores
+__pycache__/
+venv/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (NEVER commit these)
+.env
+
+# VSCode specific
+.vscode/
+
+# Frontend specific ignores
+/frontend/node_modules
+/frontend/build
