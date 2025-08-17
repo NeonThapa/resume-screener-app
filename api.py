@@ -22,7 +22,16 @@ else:
 # --- END OF FIX ---
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:3000", "https://*.onrender.com"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000", # For local development
+        "https://resume-screener-ui.onrender.com" # For your live website
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/analyze/")
 async def analyze_resumes_endpoint(jd: UploadFile = File(...), resumes: List[UploadFile] = File(...)):
