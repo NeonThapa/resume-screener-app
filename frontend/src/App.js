@@ -68,8 +68,8 @@ function App() {
       formData.append('resumes', file);
     });
 
-    try {
-      const response = await fetch('http://127.0.0.1:8000/analyze/', {
+    try {;
+      const response = await fetch(process.env.REACT_APP_API_URL || 'http://127.0.0.1:8000/analyze/', {
         method: 'POST',
         body: formData,
       });
