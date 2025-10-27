@@ -21,7 +21,6 @@ pillow>=10.2,<12
 python-dotenv>=1.0,<1.1
 
 # --- LLM access --------------------------------------------------------------
-openrouter>=0.2.0,<0.3
 openai>=1.40,<1.50
 
 # The spaCy model is installed separately:

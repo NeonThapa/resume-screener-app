@@ -45,7 +45,7 @@ Pinned versions guarantee reproducibility. Categories:
 - **NLP**: `spacy`, `scikit-learn`. You must run `python -m spacy download en_core_web_sm` once.
 - **Parsing**: `pymupdf`, `pdfminer.six`, `pdf2image`, `pytesseract`, `python-docx`, `pillow`.
 - **Config**: `python-dotenv` to load `.env` at startup.
-- **LLM**: `openrouter`, `openai`. We call OpenRouter’s minimax model through the OpenAI SDK by overriding `base_url`.
+- **LLM**: `openai`. We call OpenRouter’s minimax model through the OpenAI SDK by overriding `base_url`.
 
 Virtual environment workflow:
 
