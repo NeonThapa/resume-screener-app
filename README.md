@@ -5,6 +5,8 @@ This project pairs a FastAPI backend with a React frontend to extract text from 
 ## Documentation index
 - [Quick Start](docs/quickstart.md) – shortest path to running locally.
 - [System Overview](docs/system-overview.md) – architecture, pipeline, and deployment details.
+- [Developer Guide](docs/developer-guide.md) – exhaustive walkthrough of every module.
+- [Render Deployment](docs/render-deploy.md) – step-by-step instructions for deploying on Render (including common build fixes).
 
 ## Quick Start (condensed)
 
