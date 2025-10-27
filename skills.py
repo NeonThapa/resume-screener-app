@@ -77,7 +77,8 @@ MASTER_SKILL_LIST = {
         "REST APIs", "GraphQL", "Docker", "Kubernetes", "CI/CD", "Unit Testing",
         "Jest", "Mocha", "Webpack", "Babel", "Microservices"
     ],
-    "Manager Lead – Finance": [
+    "Manager Lead - Finance": [
+        "Manager Lead - Finance", "Manager Lead – Finance", "Lead - Finance", "Lead – Finance",
         "Financial Reporting", "Budget Management", "Forecasting", "Financial Analysis",
         "Variance Analysis", "Cost Accounting", "SAP FI", "Oracle Financials",
         "Excel", "Power BI", "Financial Modeling", "Risk Management",

@@ -6,7 +6,10 @@ import './ResultsList.css';
 function ResultsList({ results, fileObjects }) {
   return (
     <div className="results-container">
-      <h2>Analysis Results</h2>
+      <div className="results-heading">
+        <h2>Recommended Candidates</h2>
+        <p>Sorted by composite suitability score. Click a candidate to expand their insight card.</p>
+      </div>
       {results.map((candidate) => (
         <CandidateCard 
           key={candidate.rank} 

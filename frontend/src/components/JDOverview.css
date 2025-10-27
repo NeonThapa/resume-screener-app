@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.jd-overview {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 18px 48px rgba(0, 155, 255, 0.14);
+  border: 1px solid rgba(0, 155, 255, 0.2);
+}
+
+.jd-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #009bff;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.jd-header p {
+  margin: 6px 0 20px;
+  color: #1c3f70;
+  font-size: 0.95rem;
+}
+
+.jd-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.jd-card {
+  background: linear-gradient(180deg, rgba(0, 155, 255, 0.14) 0%, rgba(255, 255, 255, 0.96) 100%);
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 155, 255, 0.24);
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jd-card h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #0087ff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.jd-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #1c3f70;
+  white-space: pre-wrap;
+}

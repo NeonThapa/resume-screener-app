@@ -2,11 +2,12 @@
 import React from 'react';
 import './ProgressBar.css';
 
-function ProgressBar() {
+function ProgressBar({ message, detail }) {
   return (
     <div className="progress-container">
       <div className="progress-bar"></div>
-      <p className="progress-text">Analyzing Resumes...</p>
+      <p className="progress-text">{message || 'Analyzing Resumes...'}</p>
+      {detail && <p className="progress-subtext">{detail}</p>}
     </div>
   );
 }

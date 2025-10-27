@@ -1,0 +1,13 @@
+<svg width="220" height="52" viewBox="0 0 220 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="52" rx="12" fill="#FFFFFF"/>
+  <g>
+    <rect x="8" y="10" width="32" height="32" rx="16" fill="#004C97"/>
+    <path d="M24 19.5C21.5147 19.5 19.5 21.5147 19.5 24C19.5 26.4853 21.5147 28.5 24 28.5C26.4853 28.5 28.5 26.4853 28.5 24C28.5 21.5147 26.4853 19.5 24 19.5ZM24 18C27.3137 18 30 20.6863 30 24C30 27.3137 27.3137 30 24 30C20.6863 30 18 27.3137 18 24C18 20.6863 20.6863 18 24 18Z" fill="#FFFFFF"/>
+    <path d="M24 14C18.4772 14 14 18.4772 14 24H12C12 17.3726 17.3726 12 24 12V14Z" fill="#66C3FF"/>
+    <path d="M24 34C29.5228 34 34 29.5228 34 24H36C36 30.6274 30.6274 36 24 36V34Z" fill="#66C3FF"/>
+  </g>
+  <g transform="translate(54 10)">
+    <text x="0" y="16" font-family="Poppins, Segoe UI, Arial" font-weight="700" font-size="16" fill="#002A5C" letter-spacing="0.2em">TATA STRIVE</text>
+    <text x="0" y="35" font-family="Poppins, Segoe UI, Arial" font-weight="400" font-size="11" fill="#006BB6" letter-spacing="0.08em">HUMAN RESOURCES • TALENT ANALYTICS</text>
+  </g>
+</svg>
